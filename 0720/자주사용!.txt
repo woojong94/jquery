@@ -1,0 +1,10 @@
+.attr	-> 속성을 죄회, 추가, 변경
+.prop -> 상태에 대한 속성 (값 - true, false)
+.data 	-> data-속성명 으로 정의된 속성을 읽을 때 
+
+.val() 	- 값 지정 - value 속성에 대입, 값이 없으면 value 속성에 대입된 값을 가져온다
+
+.addClass()
+.removeClass()
+.toggleClass()
+.hasClass()

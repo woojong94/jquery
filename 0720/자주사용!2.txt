@@ -1,0 +1,15 @@
+html()	-> HTML요소를 가져오거나 출력 (innerHTML)
+
+append()	-> 부모의 자식의 가장 하단에 추가 (appendChild)
+prepend()	-> 부모의 자식의 가장 처음에 추가	(insertBefore)
+
+after()	-> 형제 뒤쪽에 추가
+before()	-> 형제 앞쪽에 추가
+
+remove()	-> 요소 제거
+empty()	-> 요소 하위의 내용 제거
+
+clone()	-> 요소 복사
+
+replaceWith	-> 요소 치환(교체)
+
