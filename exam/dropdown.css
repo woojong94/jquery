@@ -1,3 +1,4 @@
+/* @charset='utf-8';	 한글이 깨지지 않도록 */
 * {
 	box-sizing: border-box;
 }
@@ -34,7 +35,16 @@ footer {
 	height: 0;
 	overflow: hidden;
 	border: 0;
-	padding: 15px;
 	position: absolute;
 	top: 55px;	 /*  nav 높이가 55px이라 top에서 55px 떨어지면 nav를 가리지 않는다*/
+	transition: all 0.5s;
+}
+
+.all_menu > .inner {
+	padding: 15px;
+	height: 200px;
+}
+
+nav.on .all_menu {
+	height: 200px;
 }

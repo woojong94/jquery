@@ -1,0 +1,4 @@
+closest - parent()
+find - children()
+			parent, children은 부모, 자식 요소가 추가 및 변경시 값이 달라질 수 있음
+			closest, finde 사용 권장
